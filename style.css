@@ -86,3 +86,18 @@ table td{
   border: solid;
 }
 
+.rulesTable{
+  border-radius: 10px;
+  width: 60vw;
+  display: flex;
+  margin:2rem auto ;
+  padding: 1.5rem;
+}
+
+.rulesTable td{
+  border: none;
+}
+
+.rulesTable td:first-child{
+  border-right: 3px solid;
+}
