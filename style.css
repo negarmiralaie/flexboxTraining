@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.description {
+  margin: 2rem;
+  padding: 2rem;
+  border: solid;
+  border-radius: 20px;
+}
+
+.cardCombo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardCombo article {
+  background-color: gray;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 8rem;
+  max-width: 12rem;
+  padding: 6rem 0;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 480px) {
+  .cardCombo{
+    display: flex;
+    flex-direction: column;
+  }
+}
