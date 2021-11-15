@@ -65,3 +65,10 @@ nav ul li a {
     flex-direction: column;
   }
 }
+
+.goalsSection{
+  padding: 2rem;
+  border: solid;
+  border-radius: 20px;
+  margin: 2rem;
+}
