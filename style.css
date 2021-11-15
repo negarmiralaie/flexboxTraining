@@ -40,8 +40,23 @@ nav ul li a {
   text-align: center;
   min-width: 8rem;
   max-width: 12rem;
-  padding: 6rem 0;
+  padding: 4rem 0;
   margin: 1rem 0;
+}
+
+.cardCombo img{
+  width: 70px;
+}
+
+.cardCombo p{
+  font-weight: bold;
+}
+
+.cardCombo a{
+  color: white;
+  background-color: rgb(161, 38, 38);
+  padding: .5rem;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 480px) {
