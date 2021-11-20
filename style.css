@@ -16,7 +16,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .description {
@@ -40,7 +40,7 @@ nav ul li a {
   text-align: center;
   min-width: 8rem;
   max-width: 12rem;
-  padding: 4rem 4rem;
+  padding: 4rem 5rem;
   margin: 1rem 0;
 }
 
